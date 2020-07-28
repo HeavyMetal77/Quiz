@@ -21,37 +21,33 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:id="@+id/btnclose"
-            android:text="&#60;"
+            android:text="@string/close"
             android:textStyle="bold"
             android:gravity="center"
-            android:layout_gravity="start"
+            android:layout_gravity="end"
             android:background="@drawable/button_stroke_black95_press_white" />
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:id="@+id/previewimg"
-            android:src="@drawable/peviewimgone"
-            android:layout_weight="60"
-            android:layout_marginTop="10dp"/>
-
-        <TextView
+        <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:id="@+id/textdescription"
-            android:text="@string/levelone"
-            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textdescriptionend"
+            android:text="@string/leveloneend"
             android:textColor="@color/black95"
-            android:textSize="24sp"
-            android:layout_marginTop="10dp"/>
+            android:textSize="24sp"/>
+        </ScrollView>
+
+
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_height="40dp"
             android:id="@+id/btncontinue"
             android:background="@drawable/button_stroke_black95_press_white"
-            android:layout_weight="10"
             android:text="@string/textcontinue"
             android:textColor="@color/black95"
             android:paddingLeft="10dp"

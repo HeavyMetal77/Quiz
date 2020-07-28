@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="levelone">Выбери цифру, которая больше.\nВопросы могут повторяться, пока Вы не наберете 20 очков.</string>
+    <string name="levelone">Choose the number that is higher. \nQuestions can be repeated until you get 20 points.</string>
+    <string name="leveltwo">Choose a Roman numeral that is larger. \nQuestions may be repeated until you reach 20 points.</string>
+    <string name="leveloneend">"Congratulations! Level passed!\n
+        Did you know that the number 7 is considered lucky by many people? There are 7 days of the week, 7 continents, 7 rainbow colors, 7 musical notes. \ n
+        Also, this number is the favorite number of many people."</string>
+    <string name="leveltwoend">"Congratulations! Level passed! \n
+        Did you know that there is no zero in Roman numbers?"</string>
+    <string name="levelthree">Choose a monkey. \nThe questions can be repeated until you get 20 points.</string>
+    <string name="levelthreeend">"Congratulations! Level passed! \n
+        Did you know that .....?"</string>
 </resources>
